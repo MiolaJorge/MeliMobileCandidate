@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Meli Mobile Candidate</string>
+
+    <string name="download_failed_alert_dialog_title">Ups, Se ha producido un problema con tu solicitud</string>
+    <string name="download_failed_alert_dialog_message">Por favor volve a intentarlo.</string>
+    <string name="download_failed_alert_dialog_ok">OK</string>
+
+
+</resources>

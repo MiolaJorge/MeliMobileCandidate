@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="photo_size_search">100dp</dimen>
+    <dimen name="photo_size_description">125dp</dimen>
+    <dimen name="default_margin">8dp</dimen>
+</resources>
