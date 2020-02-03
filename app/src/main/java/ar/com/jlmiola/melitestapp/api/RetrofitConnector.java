@@ -9,7 +9,12 @@ public class RetrofitConnector {
     public WebServiceApi meliWebServiceApi;
 
     public RetrofitConnector() {
-        Retrofit retrofit = new Retrofit.Builder().baseUrl(URL_BASE_MELI).addConverterFactory(GsonConverterFactory.create()).build();
+
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl(URL_BASE_MELI)
+                .addConverterFactory(GsonConverterFactory.create())
+                .build();
+
         this.meliWebServiceApi = retrofit.create(WebServiceApi.class);
     }
 

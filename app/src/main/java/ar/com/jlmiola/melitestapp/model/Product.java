@@ -1,5 +1,6 @@
 package ar.com.jlmiola.melitestapp.model;
 
+import android.text.Html;
 import android.widget.ImageView;
 
 import androidx.databinding.BindingAdapter;
@@ -55,6 +56,11 @@ public class Product {
     public static class Shipping {
         @SerializedName("free_shipping")
         public String freeShipping;
+    }
+
+    public String getDescription() {
+        // Formateo el texto para mostrarlo
+        return String.valueOf(Html.fromHtml(description));
     }
 
     /**

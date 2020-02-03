@@ -62,7 +62,6 @@ public class SearchFragment extends Fragment {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_search, container, false);
         binding.setLifecycleOwner(this);
 
-
         // Seteo sobre Search Recycler
         LinearLayoutManager lManager1 = new LinearLayoutManager(getContext());
         binding.recyclerViewProductos.setLayoutManager(lManager1);

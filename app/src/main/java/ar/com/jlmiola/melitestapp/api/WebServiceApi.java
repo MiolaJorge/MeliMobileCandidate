@@ -41,6 +41,5 @@ public interface WebServiceApi {
      */
     @GET("items/{id}")
     Call<ProductDetail> getProductDetail(@Path("id") String id);
-
-
+    
 }

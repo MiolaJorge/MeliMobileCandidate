@@ -90,7 +90,7 @@ public class ProductDetailFragment extends Fragment {
         LinearLayoutManager layoutManager = new LinearLayoutManager(getContext());
 
         // Actualizo los datos
-        binding.txtViewNombreProducto.setText(meliViewModel.getProductDetail().titulo);
+        binding.txtViewNombreProducto.setText(Html.fromHtml(meliViewModel.getProductDetail().titulo));
         binding.txtViewPrecioProducto.setText(meliViewModel.getProductDetail().precio != null ? "$ " + meliViewModel.getProductDetail().precio : "");
         binding.txtViewGarantiaProducto.setText(meliViewModel.getProductDetail().warranty);
 
