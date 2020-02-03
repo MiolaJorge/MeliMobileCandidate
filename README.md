@@ -8,7 +8,7 @@ La App debe permitir la posibilidad de:
 3. Visualizar el detalle de un producto seleccionado.
 
 Para el desarrolo se usará el patrón arquitectónico MVVM, estandar propuesto por Google.
-*No se implenetará el Patrón Repository*.
+*No se implementará el Patrón Repository*.
 
 ## [Patrón Modelo – Vista – ModelView (MVVM)](https://developer.android.com/jetpack/docs/guide)
 
