@@ -83,7 +83,7 @@ Los componentes optimizados para Lifecycle realizan acciones como respuesta a un
 
 
 
-- [GLIDE](hhttps://github.com/bumptech/glide) 
+- [GLIDE](https://github.com/bumptech/glide) 
 es un marco de gestión de medios y carga de imágenes de código abierto rápido y eficiente para Android que envuelve la decodificación de recursos, la memoria y el almacenamiento en caché de disco y la agrupación de recursos en una interfaz simple y fácil de usar. Glide admite la obtención, decodificación y visualización de imágenes fijas de vídeo, imágenes y GIF animados. Glide incluye una API flexible que permite a los desarrolladores conectarse a casi cualquier pila de red. De manera predeterminada, Glide utiliza una pila personalizada basada en HttpUrlConnection, pero también incluye bibliotecas de utilidades que se conectan al proyecto Volley de Google o a la biblioteca OkHttp de Square. El objetivo principal de Glide es hacer que el desplazamiento de cualquier tipo de lista de imágenes sea lo más suave y rápido posible, pero Glide también es efectivo para casi cualquier caso en el que necesites buscar, cambiar el tamaño y mostrar una imagen remota.
     
 - [Retrofit](https://square.github.io/retrofit/) es una librería para hacer llamadas a la red y obtener el resultado estructurado de una vez. Reempleaza la labor manual de utilizar un HttpClient y luego usar json.get para construir nuestros objetos. Para darle el uso correcto a Retrofit, necesitaremos clases que representen nuestras entidades en un formato [POJO](https://es.wikipedia.org/wiki/Plain_Old_Java_Object).
